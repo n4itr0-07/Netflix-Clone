@@ -97,9 +97,15 @@ nav button {
 }
 
 .btn {
+    /* font-family: 'Poppins', sans-serif; */
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: white;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 2px solid white;
+    cursor: pointer;
+
 }
 
 .btn-red {
@@ -108,6 +114,14 @@ nav button {
     padding: 3px 24px;
     font-size: 20px;
     border-radius: 4px;
+    font-weight: 400;
+
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
 
 }
 
@@ -121,15 +135,34 @@ nav button {
 
 .main input {
     padding: 7px 101px 8px 14px;
-    font-weight: 900;
+    color: white;
+    /* font-weight: 900; */
     font-size: 12px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
-.btn-red-sm {
-    background-color: red;
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
     color: white;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 30vw;
+
+}
+
+.secImg video{
+    position: absolute;
 }
