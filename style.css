@@ -159,10 +159,35 @@ nav button {
 }
 
 .secImg img {
-    width: 30vw;
+    width: 555px;
+    position: relative;
+    z-index: 10;
+
 
 }
 
-.secImg video{
+.secImg video {
     position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section.first > div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    
+
 }
