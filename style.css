@@ -174,13 +174,13 @@ nav button {
 
 }
 
-section.first > div{
+section.first>div {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-section.first > div :nth-child(1) {
+section.first>div :nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
 
@@ -188,6 +188,47 @@ section.first > div :nth-child(1) {
 
 section.first>div :nth-child(2) {
     font-size: 24px;
+   
+
+
+
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+
+
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
     
+    
+}
+
+.faqbox:hover{
+    background-color: #7f7777;
+    color: white;
+}
+
+.faqbox svg{
+    filter: invert(1);
+}
+
+.faqbox {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D2D2D;
+    Padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 0.2s ease-out;
+
 
 }
