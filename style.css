@@ -257,9 +257,10 @@ footer .questions {
 
 @media screen and (max-width:1300px) {
 
-    nav{
+    nav {
         max-width: 90vw;
     }
+
     .first {
         flex-wrap: wrap;
     }
@@ -284,24 +285,24 @@ footer .questions {
         font-size: 18px;
     }
 
-    .hero-buttons{
+    .hero-buttons {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .faq h2{
+    .faq h2 {
         text-align: center;
-        font-size:32px ;
+        font-size: 32px;
     }
 
-    footer{
+    footer {
         max-width: 90vw;
 
     }
 
-    .footer-item{
-align-items: center;
+    .footer-item {
+        align-items: center;
     }
 }
 
@@ -311,18 +312,16 @@ align-items: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 25px;
-
-
     }
+}
 
-    .footer a {
-        font-size: 14px;
-        color: white;
-    }
+.footer a {
+    font-size: 14px;
+    color: white;
+}
 
-    .footer-item {
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-    }
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
